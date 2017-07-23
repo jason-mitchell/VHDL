@@ -1,0 +1,57 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : TOPLEVEL_drc.vf
+// /___/   /\     Timestamp : 04/12/2016 20:49:35
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\sch2hdl.exe -intstyle ise -family spartan3e -verilog TOPLEVEL_drc.vf -w C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.sch
+//Design Name: TOPLEVEL
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module TOPLEVEL(PHA, 
+                PHB, 
+                SYSCLK, 
+                count_out, 
+                DIR, 
+                PULSE_OUT);
+
+    input PHA;
+    input PHB;
+    input SYSCLK;
+   output [3:0] count_out;
+   output DIR;
+   output PULSE_OUT;
+   
+   wire XLXN_6;
+   wire XLXN_17;
+   wire PULSE_OUT_DUMMY;
+   wire DIR_DUMMY;
+   
+   assign DIR = DIR_DUMMY;
+   assign PULSE_OUT = PULSE_OUT_DUMMY;
+   encoder  XLXI_1 (.clk(SYSCLK), 
+                   .rotary_a(PHA), 
+                   .rotary_b(PHB), 
+                   .detent(XLXN_17), 
+                   .dir(DIR_DUMMY));
+   FD #( .INIT(1'b0) ) XLXI_2 (.C(XLXN_17), 
+              .D(XLXN_6), 
+              .Q(PULSE_OUT_DUMMY));
+   INV  XLXI_3 (.I(PULSE_OUT_DUMMY), 
+               .O(XLXN_6));
+   UpDownCounter4Bit  XLXI_10 (.count_in(PULSE_OUT_DUMMY), 
+                              .dir(DIR_DUMMY), 
+                              .count_out(count_out[3:0]));
+endmodule

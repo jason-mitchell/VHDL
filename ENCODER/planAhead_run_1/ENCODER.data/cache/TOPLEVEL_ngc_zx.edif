@@ -1,0 +1,103 @@
+(edif TOPLEVEL
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2016 4 9 20 7 22)
+      (program "Xilinx ngc2edif" (version "P.20131013"))
+      (author "Xilinx. Inc ")
+      (comment "This EDIF netlist is to be used within supported synthesis tools")
+      (comment "for determining resource/timing estimates of the design component")
+      (comment "represented by this netlist.")
+      (comment "Command line: -mdp2sp -w -secure TOPLEVEL.ngc TOPLEVEL.edif ")))
+  (external UNISIMS
+    (edifLevel 0)
+    (technology (numberDefinition))
+    (cell VCC
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port P
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+    (cell OBUF
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port I
+              (direction INPUT)
+            )
+            (port O
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+  )
+
+  (library TOPLEVEL_lib
+    (edifLevel 0)
+    (technology (numberDefinition))
+    (cell TOPLEVEL
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port PHA
+              (direction INPUT)
+            )
+            (port PHB
+              (direction INPUT)
+            )
+            (port POUT
+              (direction OUTPUT)
+            )
+            (port SYSCLK
+              (direction INPUT)
+            )
+            (designator "xc3s500e-4-fg320")
+            (property TYPE (string "TOPLEVEL") (owner "Xilinx"))
+            (property NLW_UNIQUE_ID (integer 0) (owner "Xilinx"))
+            (property NLW_MACRO_TAG (integer 0) (owner "Xilinx"))
+            (property NLW_MACRO_ALIAS (string "TOPLEVEL_TOPLEVEL") (owner "Xilinx"))
+          )
+          (contents
+            (instance XST_VCC
+              (viewRef view_1 (cellRef VCC (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance POUT_OBUF
+              (viewRef view_1 (cellRef OBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (net N1
+              (joined
+                (portRef P (instanceRef XST_VCC))
+                (portRef I (instanceRef POUT_OBUF))
+              )
+            )
+            (net POUT
+              (joined
+                (portRef POUT)
+                (portRef O (instanceRef POUT_OBUF))
+              )
+            )
+          )
+      )
+    )
+  )
+
+  (design TOPLEVEL
+    (cellRef TOPLEVEL
+      (libraryRef TOPLEVEL_lib)
+    )
+    (property PART (string "xc3s500e-4-fg320") (owner "Xilinx"))
+  )
+)
+

@@ -1,0 +1,18 @@
+V3 10
+FL C:/Checkout3/Hack.org.za/Xilinx/ENCODER/rotary_encoder.vhd 2016/04/12.22:37:08 P.20131013
+FL C:/Checkout3/Hack.org.za/Xilinx/ENCODER/UpDownCounter4Bit.vhd 2016/04/12.22:11:15 P.20131013
+FL C:/Temp/Work/VHDL/ENCODER/rotary_encoder.vhd 2017/07/23.19:24:58 P.20131013
+EN work/encoder 1500830919 FL C:/Temp/Work/VHDL/ENCODER/rotary_encoder.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/encoder/Behavioral 1500830920 \
+      FL C:/Temp/Work/VHDL/ENCODER/rotary_encoder.vhd EN work/encoder 1500830919
+FL C:/Temp/Work/VHDL/ENCODER/UpDownCounter4Bit.vhd 2017/07/23.19:27:33 P.20131013
+EN work/UpDownCounter4Bit 1500830921 \
+      FL C:/Temp/Work/VHDL/ENCODER/UpDownCounter4Bit.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/std_logic_arith 1381692177 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/UpDownCounter4Bit/Behavioral 1500830922 \
+      FL C:/Temp/Work/VHDL/ENCODER/UpDownCounter4Bit.vhd \
+      EN work/UpDownCounter4Bit 1500830921
+FL "F:/Old Work To be Archived/Checkout3/Hack.org.za/Xilinx/ENCODER/rotary_encoder.vhd" 2016/04/12.22:37:08 P.20131013
+FL "F:/Old Work To be Archived/Checkout3/Hack.org.za/Xilinx/ENCODER/UpDownCounter4Bit.vhd" 2016/04/12.22:11:15 P.20131013

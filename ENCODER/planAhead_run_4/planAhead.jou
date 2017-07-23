@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Sat Apr 09 20:24:47 2016
+# Process ID: 7528
+# Log file: C:/Checkout3/Hack.org.za/Xilinx/ENCODER/planAhead_run_4/planAhead.log
+# Journal file: C:/Checkout3/Hack.org.za/Xilinx/ENCODER/planAhead_run_4/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Checkout3/Hack.org.za/Xilinx/ENCODER/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property iostandard LVCMOS25 [get_ports [list PHB]]
+set_property iostandard LVCMOS25 [get_ports [list PHA]]
+save_constraints

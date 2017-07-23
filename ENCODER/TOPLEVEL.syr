@@ -1,0 +1,461 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Reading design: TOPLEVEL.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "TOPLEVEL.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "TOPLEVEL"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : TOPLEVEL
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Temp/Work/VHDL/ENCODER/rotary_encoder.vhd" in Library work.
+Architecture behavioral of Entity encoder is up to date.
+Compiling vhdl file "C:/Temp/Work/VHDL/ENCODER/UpDownCounter4Bit.vhd" in Library work.
+Architecture behavioral of Entity updowncounter4bit is up to date.
+Compiling verilog file "TOPLEVEL.vf" in library work
+Module <TOPLEVEL> compiled
+No errors in compilation
+Analysis of file <"TOPLEVEL.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <TOPLEVEL> in library <work>.
+
+Analyzing hierarchy for entity <encoder> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <updowncounter4bit> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <TOPLEVEL>.
+Module <TOPLEVEL> is correct for synthesis.
+ 
+    Set user-defined property "INIT =  0" for instance <XLXI_2> in unit <TOPLEVEL>.
+Analyzing Entity <encoder> in library <work> (Architecture <behavioral>).
+INFO:Xst:1561 - "C:/Temp/Work/VHDL/ENCODER/rotary_encoder.vhd" line 89: Mux is complete : default of case is discarded
+Entity <encoder> analyzed. Unit <encoder> generated.
+
+Analyzing Entity <updowncounter4bit> in library <work> (Architecture <behavioral>).
+Entity <updowncounter4bit> analyzed. Unit <updowncounter4bit> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <encoder>.
+    Related source file is "C:/Temp/Work/VHDL/ENCODER/rotary_encoder.vhd".
+    Found 1-bit register for signal <detent>.
+    Found 1-bit register for signal <delay_rotary_q1>.
+    Found 1-bit register for signal <internal_detent>.
+    Found 1-bit register for signal <internal_direction>.
+    Found 1-bit register for signal <rotary_a_in>.
+    Found 1-bit register for signal <rotary_b_in>.
+    Found 1-bit register for signal <rotary_event>.
+    Found 2-bit register for signal <rotary_in>.
+    Found 1-bit register for signal <rotary_left>.
+    Found 1-bit register for signal <rotary_q1>.
+    Found 1-bit 4-to-1 multiplexer for signal <rotary_q1$mux0000> created at line 77.
+    Found 1-bit register for signal <rotary_q2>.
+    Found 1-bit 4-to-1 multiplexer for signal <rotary_q2$mux0000> created at line 77.
+    Summary:
+	inferred  12 D-type flip-flop(s).
+	inferred   2 Multiplexer(s).
+Unit <encoder> synthesized.
+
+
+Synthesizing Unit <updowncounter4bit>.
+    Related source file is "C:/Temp/Work/VHDL/ENCODER/UpDownCounter4Bit.vhd".
+    Found 4-bit updown counter for signal <int_count>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <updowncounter4bit> synthesized.
+
+
+Synthesizing Unit <TOPLEVEL>.
+    Related source file is "TOPLEVEL.vf".
+Unit <TOPLEVEL> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 4-bit updown counter                                  : 1
+# Registers                                            : 11
+ 1-bit register                                        : 10
+ 2-bit register                                        : 1
+# Multiplexers                                         : 2
+ 1-bit 4-to-1 multiplexer                              : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 4-bit updown counter                                  : 1
+# Registers                                            : 13
+ Flip-Flops                                            : 13
+# Multiplexers                                         : 2
+ 1-bit 4-to-1 multiplexer                              : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <TOPLEVEL> ...
+
+Optimizing unit <encoder> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block TOPLEVEL, actual ratio is 0.
+
+Final Macro Processing ...
+
+Processing Unit <TOPLEVEL> :
+	Found 2-bit shift register for signal <XLXI_1/rotary_in_1>.
+	Found 2-bit shift register for signal <XLXI_1/rotary_in_0>.
+Unit <TOPLEVEL> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 13
+ Flip-Flops                                            : 13
+# Shift Registers                                      : 2
+ 2-bit shift register                                  : 2
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : TOPLEVEL.ngr
+Top Level Output File Name         : TOPLEVEL
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 9
+
+Cell Usage :
+# BELS                             : 12
+#      GND                         : 1
+#      INV                         : 2
+#      LUT2                        : 3
+#      LUT3                        : 3
+#      LUT4                        : 1
+#      LUT4_L                      : 1
+#      VCC                         : 1
+# FlipFlops/Latches                : 15
+#      FD                          : 10
+#      FDE                         : 2
+#      FDR                         : 3
+# Shift Registers                  : 2
+#      SRL16                       : 2
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 8
+#      IBUF                        : 2
+#      OBUF                        : 6
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                        9  out of   4656     0%  
+ Number of Slice Flip Flops:             15  out of   9312     0%  
+ Number of 4 input LUTs:                 12  out of   9312     0%  
+    Number used as logic:                10
+    Number used as Shift registers:       2
+ Number of IOs:                           9
+ Number of bonded IOBs:                   9  out of    232     3%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+XLXI_1/detent                      | NONE(XLXI_2)           | 5     |
+SYSCLK                             | BUFGP                  | 12    |
+-----------------------------------+------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 4.014ns (Maximum Frequency: 249.128MHz)
+   Minimum input arrival time before clock: 2.059ns
+   Maximum output required time after clock: 4.496ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_1/detent'
+  Clock period: 3.123ns (frequency: 320.205MHz)
+  Total number of paths / destination ports: 11 / 5
+-------------------------------------------------------------------------
+Delay:               3.123ns (Levels of Logic = 2)
+  Source:            XLXI_10/int_count_0 (FF)
+  Destination:       XLXI_10/int_count_3 (FF)
+  Source Clock:      XLXI_1/detent rising
+  Destination Clock: XLXI_1/detent rising
+
+  Data Path: XLXI_10/int_count_0 to XLXI_10/int_count_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              5   0.591   0.637  XLXI_10/int_count_0 (XLXI_10/int_count_0)
+     LUT4_L:I3->LO         1   0.704   0.179  Result<3>_SW0 (N01)
+     LUT2:I1->O            1   0.704   0.000  Result<3> (Result<3>)
+     FD:D                      0.308          XLXI_10/int_count_3
+    ----------------------------------------
+    Total                      3.123ns (2.307ns logic, 0.816ns route)
+                                       (73.9% logic, 26.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'SYSCLK'
+  Clock period: 4.014ns (frequency: 249.128MHz)
+  Total number of paths / destination ports: 18 / 12
+-------------------------------------------------------------------------
+Delay:               4.014ns (Levels of Logic = 0)
+  Source:            XLXI_1/Mshreg_rotary_in_1 (FF)
+  Destination:       XLXI_1/rotary_in_1 (FF)
+  Source Clock:      SYSCLK rising
+  Destination Clock: SYSCLK rising
+
+  Data Path: XLXI_1/Mshreg_rotary_in_1 to XLXI_1/rotary_in_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     SRL16:CLK->Q          1   3.706   0.000  XLXI_1/Mshreg_rotary_in_1 (XLXI_1/Mshreg_rotary_in_1)
+     FD:D                      0.308          XLXI_1/rotary_in_1
+    ----------------------------------------
+    Total                      4.014ns (4.014ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'SYSCLK'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              2.059ns (Levels of Logic = 1)
+  Source:            PHB (PAD)
+  Destination:       XLXI_1/Mshreg_rotary_in_1 (FF)
+  Destination Clock: SYSCLK rising
+
+  Data Path: PHB to XLXI_1/Mshreg_rotary_in_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.218   0.420  PHB_IBUF (PHB_IBUF)
+     SRL16:D                   0.421          XLXI_1/Mshreg_rotary_in_1
+    ----------------------------------------
+    Total                      2.059ns (1.639ns logic, 0.420ns route)
+                                       (79.6% logic, 20.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_1/detent'
+  Total number of paths / destination ports: 5 / 5
+-------------------------------------------------------------------------
+Offset:              4.496ns (Levels of Logic = 1)
+  Source:            XLXI_10/int_count_0 (FF)
+  Destination:       count_out<0> (PAD)
+  Source Clock:      XLXI_1/detent rising
+
+  Data Path: XLXI_10/int_count_0 to count_out<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              5   0.591   0.633  XLXI_10/int_count_0 (XLXI_10/int_count_0)
+     OBUF:I->O                 3.272          count_out_0_OBUF (count_out<0>)
+    ----------------------------------------
+    Total                      4.496ns (3.863ns logic, 0.633ns route)
+                                       (85.9% logic, 14.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'SYSCLK'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.450ns (Levels of Logic = 1)
+  Source:            XLXI_1/internal_direction (FF)
+  Destination:       DIR (PAD)
+  Source Clock:      SYSCLK rising
+
+  Data Path: XLXI_1/internal_direction to DIR
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              4   0.591   0.587  XLXI_1/internal_direction (XLXI_1/internal_direction)
+     OBUF:I->O                 3.272          DIR_OBUF (DIR)
+    ----------------------------------------
+    Total                      4.450ns (3.863ns logic, 0.587ns route)
+                                       (86.8% logic, 13.2% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 4.57 secs
+ 
+--> 
+
+Total memory usage is 257788 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

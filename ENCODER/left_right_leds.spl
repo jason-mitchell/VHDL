@@ -1,0 +1,7 @@
+[Inputs]
+rotary_a
+rotary_b
+rotary_press
+clk
+[Outputs]
+[BiDir]

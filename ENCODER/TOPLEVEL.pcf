@@ -1,0 +1,17 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sun Jul 23 19:28:52 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "PULSE_OUT" LOCATE = SITE "F12" LEVEL 1;
+COMP "PHA" LOCATE = SITE "G18" LEVEL 1;
+COMP "PHB" LOCATE = SITE "K18" LEVEL 1;
+COMP "count_out<0>" LOCATE = SITE "F9" LEVEL 1;
+COMP "count_out<1>" LOCATE = SITE "E9" LEVEL 1;
+COMP "count_out<2>" LOCATE = SITE "D11" LEVEL 1;
+COMP "count_out<3>" LOCATE = SITE "C11" LEVEL 1;
+COMP "SYSCLK" LOCATE = SITE "C9" LEVEL 1;
+COMP "DIR" LOCATE = SITE "E12" LEVEL 1;
+NET "SYSCLK_BUFGP/IBUFG" BEL "SYSCLK_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

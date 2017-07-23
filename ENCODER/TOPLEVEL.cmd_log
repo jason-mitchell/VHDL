@@ -1,0 +1,243 @@
+sch2hdl -intstyle ise -family spartan3e -verilog TOPLEVEL_drc.vf -w C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.sch 
+sch2sym -intstyle ise -family spartan3e -refsym TOPLEVEL C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.sch C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.sym 
+sch2hdl -intstyle ise -family spartan3e -verilog TOPLEVEL_drc.vf -w C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.sch 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOPLEVEL.ucf -p xc3s500e-fg320-4 TOPLEVEL.ngc TOPLEVEL.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TOPLEVEL_map.ncd TOPLEVEL.ngd TOPLEVEL.pcf 
+par -w -intstyle ise -ol high -t 1 TOPLEVEL_map.ncd TOPLEVEL.ncd TOPLEVEL.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOPLEVEL.twx TOPLEVEL.ncd -o TOPLEVEL.twr TOPLEVEL.pcf -ucf TOPLEVEL.ucf 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOPLEVEL.ucf -p xc3s500e-fg320-4 TOPLEVEL.ngc TOPLEVEL.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TOPLEVEL_map.ncd TOPLEVEL.ngd TOPLEVEL.pcf 
+par -w -intstyle ise -ol high -t 1 TOPLEVEL_map.ncd TOPLEVEL.ncd TOPLEVEL.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOPLEVEL.twx TOPLEVEL.ncd -o TOPLEVEL.twr TOPLEVEL.pcf -ucf TOPLEVEL.ucf 
+sch2hdl -intstyle ise -family spartan3e -verilog TOPLEVEL_drc.vf -w C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.sch 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOPLEVEL.ucf -p xc3s500e-fg320-4 TOPLEVEL.ngc TOPLEVEL.ngd  
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOPLEVEL.ucf -p xc3s500e-fg320-4 TOPLEVEL.ngc TOPLEVEL.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOPLEVEL.ucf -p xc3s500e-fg320-4 TOPLEVEL.ngc TOPLEVEL.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TOPLEVEL_map.ncd TOPLEVEL.ngd TOPLEVEL.pcf 
+par -w -intstyle ise -ol high -t 1 TOPLEVEL_map.ncd TOPLEVEL.ncd TOPLEVEL.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOPLEVEL.twx TOPLEVEL.ncd -o TOPLEVEL.twr TOPLEVEL.pcf -ucf TOPLEVEL.ucf 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOPLEVEL.ucf -p xc3s500e-fg320-4 TOPLEVEL.ngc TOPLEVEL.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TOPLEVEL_map.ncd TOPLEVEL.ngd TOPLEVEL.pcf 
+par -w -intstyle ise -ol high -t 1 TOPLEVEL_map.ncd TOPLEVEL.ncd TOPLEVEL.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOPLEVEL.twx TOPLEVEL.ncd -o TOPLEVEL.twr TOPLEVEL.pcf -ucf TOPLEVEL.ucf 
+sch2hdl -intstyle ise -family spartan3e -verilog TOPLEVEL_drc.vf -w C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.sch 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOPLEVEL.ucf -p xc3s500e-fg320-4 TOPLEVEL.ngc TOPLEVEL.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TOPLEVEL_map.ncd TOPLEVEL.ngd TOPLEVEL.pcf 
+par -w -intstyle ise -ol high -t 1 TOPLEVEL_map.ncd TOPLEVEL.ncd TOPLEVEL.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOPLEVEL.twx TOPLEVEL.ncd -o TOPLEVEL.twr TOPLEVEL.pcf -ucf TOPLEVEL.ucf 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOPLEVEL.ucf -p xc3s500e-fg320-4 TOPLEVEL.ngc TOPLEVEL.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TOPLEVEL_map.ncd TOPLEVEL.ngd TOPLEVEL.pcf 
+par -w -intstyle ise -ol high -t 1 TOPLEVEL_map.ncd TOPLEVEL.ncd TOPLEVEL.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOPLEVEL.twx TOPLEVEL.ncd -o TOPLEVEL.twr TOPLEVEL.pcf -ucf TOPLEVEL.ucf 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOPLEVEL.ucf -p xc3s500e-fg320-4 TOPLEVEL.ngc TOPLEVEL.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TOPLEVEL_map.ncd TOPLEVEL.ngd TOPLEVEL.pcf 
+par -w -intstyle ise -ol high -t 1 TOPLEVEL_map.ncd TOPLEVEL.ncd TOPLEVEL.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOPLEVEL.twx TOPLEVEL.ncd -o TOPLEVEL.twr TOPLEVEL.pcf -ucf TOPLEVEL.ucf 
+bitgen -intstyle ise -f TOPLEVEL.ut TOPLEVEL.ncd 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+sch2hdl -intstyle ise -family spartan3e -verilog TOPLEVEL_drc.vf -w C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.sch 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOPLEVEL.ucf -p xc3s500e-fg320-4 TOPLEVEL.ngc TOPLEVEL.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TOPLEVEL_map.ncd TOPLEVEL.ngd TOPLEVEL.pcf 
+par -w -intstyle ise -ol high -t 1 TOPLEVEL_map.ncd TOPLEVEL.ncd TOPLEVEL.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOPLEVEL.twx TOPLEVEL.ncd -o TOPLEVEL.twr TOPLEVEL.pcf -ucf TOPLEVEL.ucf 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOPLEVEL.ucf -p xc3s500e-fg320-4 TOPLEVEL.ngc TOPLEVEL.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TOPLEVEL_map.ncd TOPLEVEL.ngd TOPLEVEL.pcf 
+par -w -intstyle ise -ol high -t 1 TOPLEVEL_map.ncd TOPLEVEL.ncd TOPLEVEL.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOPLEVEL.twx TOPLEVEL.ncd -o TOPLEVEL.twr TOPLEVEL.pcf -ucf TOPLEVEL.ucf 
+bitgen -intstyle ise -f TOPLEVEL.ut TOPLEVEL.ncd 
+sch2hdl -intstyle ise -family spartan3e -verilog TOPLEVEL_drc.vf -w C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.sch 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOPLEVEL.ucf -p xc3s500e-fg320-4 TOPLEVEL.ngc TOPLEVEL.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TOPLEVEL_map.ncd TOPLEVEL.ngd TOPLEVEL.pcf 
+par -w -intstyle ise -ol high -t 1 TOPLEVEL_map.ncd TOPLEVEL.ncd TOPLEVEL.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOPLEVEL.twx TOPLEVEL.ncd -o TOPLEVEL.twr TOPLEVEL.pcf -ucf TOPLEVEL.ucf 
+bitgen -intstyle ise -f TOPLEVEL.ut TOPLEVEL.ncd 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOPLEVEL.ucf -p xc3s500e-fg320-4 TOPLEVEL.ngc TOPLEVEL.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TOPLEVEL_map.ncd TOPLEVEL.ngd TOPLEVEL.pcf 
+par -w -intstyle ise -ol high -t 1 TOPLEVEL_map.ncd TOPLEVEL.ncd TOPLEVEL.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOPLEVEL.twx TOPLEVEL.ncd -o TOPLEVEL.twr TOPLEVEL.pcf -ucf TOPLEVEL.ucf 
+bitgen -intstyle ise -f TOPLEVEL.ut TOPLEVEL.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOPLEVEL.ucf -p xc3s500e-fg320-4 TOPLEVEL.ngc TOPLEVEL.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TOPLEVEL_map.ncd TOPLEVEL.ngd TOPLEVEL.pcf 
+par -w -intstyle ise -ol high -t 1 TOPLEVEL_map.ncd TOPLEVEL.ncd TOPLEVEL.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOPLEVEL.twx TOPLEVEL.ncd -o TOPLEVEL.twr TOPLEVEL.pcf -ucf TOPLEVEL.ucf 
+bitgen -intstyle ise -f TOPLEVEL.ut TOPLEVEL.ncd 
+sch2hdl -intstyle ise -family spartan3e -verilog TOPLEVEL_drc.vf -w C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog TOPLEVEL_drc.vf -w C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.sch 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOPLEVEL.ucf -p xc3s500e-fg320-4 TOPLEVEL.ngc TOPLEVEL.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TOPLEVEL_map.ncd TOPLEVEL.ngd TOPLEVEL.pcf 
+par -w -intstyle ise -ol high -t 1 TOPLEVEL_map.ncd TOPLEVEL.ncd TOPLEVEL.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOPLEVEL.twx TOPLEVEL.ncd -o TOPLEVEL.twr TOPLEVEL.pcf -ucf TOPLEVEL.ucf 
+bitgen -intstyle ise -f TOPLEVEL.ut TOPLEVEL.ncd 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOPLEVEL.ucf -p xc3s500e-fg320-4 TOPLEVEL.ngc TOPLEVEL.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TOPLEVEL_map.ncd TOPLEVEL.ngd TOPLEVEL.pcf 
+par -w -intstyle ise -ol high -t 1 TOPLEVEL_map.ncd TOPLEVEL.ncd TOPLEVEL.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOPLEVEL.twx TOPLEVEL.ncd -o TOPLEVEL.twr TOPLEVEL.pcf -ucf TOPLEVEL.ucf 
+bitgen -intstyle ise -f TOPLEVEL.ut TOPLEVEL.ncd 
+sch2hdl -intstyle ise -family spartan3e -verilog TOPLEVEL_drc.vf -w C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog TOPLEVEL_drc.vf -w C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.sch 
+sch2hdl -intstyle ise -family spartan3e -verilog TOPLEVEL_drc.vf -w C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.sch 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOPLEVEL.ucf -p xc3s500e-fg320-4 TOPLEVEL.ngc TOPLEVEL.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TOPLEVEL_map.ncd TOPLEVEL.ngd TOPLEVEL.pcf 
+par -w -intstyle ise -ol high -t 1 TOPLEVEL_map.ncd TOPLEVEL.ncd TOPLEVEL.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOPLEVEL.twx TOPLEVEL.ncd -o TOPLEVEL.twr TOPLEVEL.pcf -ucf TOPLEVEL.ucf 
+bitgen -intstyle ise -f TOPLEVEL.ut TOPLEVEL.ncd 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOPLEVEL.ucf -p xc3s500e-fg320-4 TOPLEVEL.ngc TOPLEVEL.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TOPLEVEL_map.ncd TOPLEVEL.ngd TOPLEVEL.pcf 
+par -w -intstyle ise -ol high -t 1 TOPLEVEL_map.ncd TOPLEVEL.ncd TOPLEVEL.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOPLEVEL.twx TOPLEVEL.ncd -o TOPLEVEL.twr TOPLEVEL.pcf -ucf TOPLEVEL.ucf 
+bitgen -intstyle ise -f TOPLEVEL.ut TOPLEVEL.ncd 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOPLEVEL.ucf -p xc3s500e-fg320-4 TOPLEVEL.ngc TOPLEVEL.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TOPLEVEL_map.ncd TOPLEVEL.ngd TOPLEVEL.pcf 
+par -w -intstyle ise -ol high -t 1 TOPLEVEL_map.ncd TOPLEVEL.ncd TOPLEVEL.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOPLEVEL.twx TOPLEVEL.ncd -o TOPLEVEL.twr TOPLEVEL.pcf -ucf TOPLEVEL.ucf 
+bitgen -intstyle ise -f TOPLEVEL.ut TOPLEVEL.ncd 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOPLEVEL.ucf -p xc3s500e-fg320-4 TOPLEVEL.ngc TOPLEVEL.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TOPLEVEL_map.ncd TOPLEVEL.ngd TOPLEVEL.pcf 
+par -w -intstyle ise -ol high -t 1 TOPLEVEL_map.ncd TOPLEVEL.ncd TOPLEVEL.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOPLEVEL.twx TOPLEVEL.ncd -o TOPLEVEL.twr TOPLEVEL.pcf -ucf TOPLEVEL.ucf 
+bitgen -intstyle ise -f TOPLEVEL.ut TOPLEVEL.ncd 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOPLEVEL.ucf -p xc3s500e-fg320-4 TOPLEVEL.ngc TOPLEVEL.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TOPLEVEL_map.ncd TOPLEVEL.ngd TOPLEVEL.pcf 
+par -w -intstyle ise -ol high -t 1 TOPLEVEL_map.ncd TOPLEVEL.ncd TOPLEVEL.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOPLEVEL.twx TOPLEVEL.ncd -o TOPLEVEL.twr TOPLEVEL.pcf -ucf TOPLEVEL.ucf 
+bitgen -intstyle ise -f TOPLEVEL.ut TOPLEVEL.ncd 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOPLEVEL.ucf -p xc3s500e-fg320-4 TOPLEVEL.ngc TOPLEVEL.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TOPLEVEL_map.ncd TOPLEVEL.ngd TOPLEVEL.pcf 
+par -w -intstyle ise -ol high -t 1 TOPLEVEL_map.ncd TOPLEVEL.ncd TOPLEVEL.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOPLEVEL.twx TOPLEVEL.ncd -o TOPLEVEL.twr TOPLEVEL.pcf -ucf TOPLEVEL.ucf 
+bitgen -intstyle ise -f TOPLEVEL.ut TOPLEVEL.ncd 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOPLEVEL.ucf -p xc3s500e-fg320-4 TOPLEVEL.ngc TOPLEVEL.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TOPLEVEL_map.ncd TOPLEVEL.ngd TOPLEVEL.pcf 
+par -w -intstyle ise -ol high -t 1 TOPLEVEL_map.ncd TOPLEVEL.ncd TOPLEVEL.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOPLEVEL.twx TOPLEVEL.ncd -o TOPLEVEL.twr TOPLEVEL.pcf -ucf TOPLEVEL.ucf 
+bitgen -intstyle ise -f TOPLEVEL.ut TOPLEVEL.ncd 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOPLEVEL.ucf -p xc3s500e-fg320-4 TOPLEVEL.ngc TOPLEVEL.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TOPLEVEL_map.ncd TOPLEVEL.ngd TOPLEVEL.pcf 
+par -w -intstyle ise -ol high -t 1 TOPLEVEL_map.ncd TOPLEVEL.ncd TOPLEVEL.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOPLEVEL.twx TOPLEVEL.ncd -o TOPLEVEL.twr TOPLEVEL.pcf -ucf TOPLEVEL.ucf 
+bitgen -intstyle ise -f TOPLEVEL.ut TOPLEVEL.ncd 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOPLEVEL.ucf -p xc3s500e-fg320-4 TOPLEVEL.ngc TOPLEVEL.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TOPLEVEL_map.ncd TOPLEVEL.ngd TOPLEVEL.pcf 
+par -w -intstyle ise -ol high -t 1 TOPLEVEL_map.ncd TOPLEVEL.ncd TOPLEVEL.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOPLEVEL.twx TOPLEVEL.ncd -o TOPLEVEL.twr TOPLEVEL.pcf -ucf TOPLEVEL.ucf 
+bitgen -intstyle ise -f TOPLEVEL.ut TOPLEVEL.ncd 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOPLEVEL.ucf -p xc3s500e-fg320-4 TOPLEVEL.ngc TOPLEVEL.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TOPLEVEL_map.ncd TOPLEVEL.ngd TOPLEVEL.pcf 
+par -w -intstyle ise -ol high -t 1 TOPLEVEL_map.ncd TOPLEVEL.ncd TOPLEVEL.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOPLEVEL.twx TOPLEVEL.ncd -o TOPLEVEL.twr TOPLEVEL.pcf -ucf TOPLEVEL.ucf 
+bitgen -intstyle ise -f TOPLEVEL.ut TOPLEVEL.ncd 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOPLEVEL.ucf -p xc3s500e-fg320-4 TOPLEVEL.ngc TOPLEVEL.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TOPLEVEL_map.ncd TOPLEVEL.ngd TOPLEVEL.pcf 
+par -w -intstyle ise -ol high -t 1 TOPLEVEL_map.ncd TOPLEVEL.ncd TOPLEVEL.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOPLEVEL.twx TOPLEVEL.ncd -o TOPLEVEL.twr TOPLEVEL.pcf -ucf TOPLEVEL.ucf 
+bitgen -intstyle ise -f TOPLEVEL.ut TOPLEVEL.ncd 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOPLEVEL.ucf -p xc3s500e-fg320-4 TOPLEVEL.ngc TOPLEVEL.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TOPLEVEL_map.ncd TOPLEVEL.ngd TOPLEVEL.pcf 
+par -w -intstyle ise -ol high -t 1 TOPLEVEL_map.ncd TOPLEVEL.ncd TOPLEVEL.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOPLEVEL.twx TOPLEVEL.ncd -o TOPLEVEL.twr TOPLEVEL.pcf -ucf TOPLEVEL.ucf 
+bitgen -intstyle ise -f TOPLEVEL.ut TOPLEVEL.ncd 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOPLEVEL.ucf -p xc3s500e-fg320-4 TOPLEVEL.ngc TOPLEVEL.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TOPLEVEL_map.ncd TOPLEVEL.ngd TOPLEVEL.pcf 
+par -w -intstyle ise -ol high -t 1 TOPLEVEL_map.ncd TOPLEVEL.ncd TOPLEVEL.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOPLEVEL.twx TOPLEVEL.ncd -o TOPLEVEL.twr TOPLEVEL.pcf -ucf TOPLEVEL.ucf 
+bitgen -intstyle ise -f TOPLEVEL.ut TOPLEVEL.ncd 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOPLEVEL.ucf -p xc3s500e-fg320-4 TOPLEVEL.ngc TOPLEVEL.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TOPLEVEL_map.ncd TOPLEVEL.ngd TOPLEVEL.pcf 
+par -w -intstyle ise -ol high -t 1 TOPLEVEL_map.ncd TOPLEVEL.ncd TOPLEVEL.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOPLEVEL.twx TOPLEVEL.ncd -o TOPLEVEL.twr TOPLEVEL.pcf -ucf TOPLEVEL.ucf 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOPLEVEL.ucf -p xc3s500e-fg320-4 TOPLEVEL.ngc TOPLEVEL.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TOPLEVEL_map.ncd TOPLEVEL.ngd TOPLEVEL.pcf 
+par -w -intstyle ise -ol high -t 1 TOPLEVEL_map.ncd TOPLEVEL.ncd TOPLEVEL.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOPLEVEL.twx TOPLEVEL.ncd -o TOPLEVEL.twr TOPLEVEL.pcf -ucf TOPLEVEL.ucf 
+bitgen -intstyle ise -f TOPLEVEL.ut TOPLEVEL.ncd 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOPLEVEL.ucf -p xc3s500e-fg320-4 TOPLEVEL.ngc TOPLEVEL.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TOPLEVEL_map.ncd TOPLEVEL.ngd TOPLEVEL.pcf 
+par -w -intstyle ise -ol high -t 1 TOPLEVEL_map.ncd TOPLEVEL.ncd TOPLEVEL.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOPLEVEL.twx TOPLEVEL.ncd -o TOPLEVEL.twr TOPLEVEL.pcf -ucf TOPLEVEL.ucf 
+bitgen -intstyle ise -f TOPLEVEL.ut TOPLEVEL.ncd 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOPLEVEL.ucf -p xc3s500e-fg320-4 TOPLEVEL.ngc TOPLEVEL.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TOPLEVEL_map.ncd TOPLEVEL.ngd TOPLEVEL.pcf 
+par -w -intstyle ise -ol high -t 1 TOPLEVEL_map.ncd TOPLEVEL.ncd TOPLEVEL.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOPLEVEL.twx TOPLEVEL.ncd -o TOPLEVEL.twr TOPLEVEL.pcf -ucf TOPLEVEL.ucf 
+bitgen -intstyle ise -f TOPLEVEL.ut TOPLEVEL.ncd 
+xst -intstyle ise -ifn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOPLEVEL.ucf -p xc3s500e-fg320-4 TOPLEVEL.ngc TOPLEVEL.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TOPLEVEL_map.ncd TOPLEVEL.ngd TOPLEVEL.pcf 
+par -w -intstyle ise -ol high -t 1 TOPLEVEL_map.ncd TOPLEVEL.ncd TOPLEVEL.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOPLEVEL.twx TOPLEVEL.ncd -o TOPLEVEL.twr TOPLEVEL.pcf -ucf TOPLEVEL.ucf 
+bitgen -intstyle ise -f TOPLEVEL.ut TOPLEVEL.ncd 
+xst -intstyle ise -ifn "F:/Old Work To be Archived/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "F:/Old Work To be Archived/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+xst -intstyle ise -ifn "F:/Old Work To be Archived/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.xst" -ofn "F:/Old Work To be Archived/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOPLEVEL.ucf -p xc3s500e-fg320-4 "TOPLEVEL.ngc" TOPLEVEL.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TOPLEVEL_map.ncd TOPLEVEL.ngd TOPLEVEL.pcf 
+par -w -intstyle ise -ol high -t 1 TOPLEVEL_map.ncd TOPLEVEL.ncd TOPLEVEL.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOPLEVEL.twx TOPLEVEL.ncd -o TOPLEVEL.twr TOPLEVEL.pcf -ucf TOPLEVEL.ucf 
+bitgen -intstyle ise -f TOPLEVEL.ut TOPLEVEL.ncd 
+xst -intstyle ise -ifn "C:/Temp/Work/VHDL/ENCODER/TOPLEVEL.xst" -ofn "C:/Temp/Work/VHDL/ENCODER/TOPLEVEL.syr" 
+xst -intstyle ise -ifn "C:/Temp/Work/VHDL/ENCODER/TOPLEVEL.xst" -ofn "C:/Temp/Work/VHDL/ENCODER/TOPLEVEL.syr" 
+xst -intstyle ise -ifn "C:/Temp/Work/VHDL/ENCODER/TOPLEVEL.xst" -ofn "C:/Temp/Work/VHDL/ENCODER/TOPLEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOPLEVEL.ucf -p xc3s500e-fg320-4 TOPLEVEL.ngc TOPLEVEL.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TOPLEVEL_map.ncd TOPLEVEL.ngd TOPLEVEL.pcf 
+par -w -intstyle ise -ol high -t 1 TOPLEVEL_map.ncd TOPLEVEL.ncd TOPLEVEL.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOPLEVEL.twx TOPLEVEL.ncd -o TOPLEVEL.twr TOPLEVEL.pcf -ucf TOPLEVEL.ucf 
+bitgen -intstyle ise -f TOPLEVEL.ut TOPLEVEL.ncd 
+xst -intstyle ise -ifn "C:/Temp/Work/VHDL/ENCODER/TOPLEVEL.xst" -ofn "C:/Temp/Work/VHDL/ENCODER/TOPLEVEL.syr" 
+xst -intstyle ise -ifn "C:/Temp/Work/VHDL/ENCODER/TOPLEVEL.xst" -ofn "C:/Temp/Work/VHDL/ENCODER/TOPLEVEL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TOPLEVEL.ucf -p xc3s500e-fg320-4 TOPLEVEL.ngc TOPLEVEL.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TOPLEVEL_map.ncd TOPLEVEL.ngd TOPLEVEL.pcf 
+par -w -intstyle ise -ol high -t 1 TOPLEVEL_map.ncd TOPLEVEL.ncd TOPLEVEL.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TOPLEVEL.twx TOPLEVEL.ncd -o TOPLEVEL.twr TOPLEVEL.pcf -ucf TOPLEVEL.ucf 
+bitgen -intstyle ise -f TOPLEVEL.ut TOPLEVEL.ncd 

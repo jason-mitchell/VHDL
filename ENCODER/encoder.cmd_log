@@ -1,0 +1,8 @@
+vhdtdtfi -lib work rotary_encoder.vhd -prj ENCODER -o encoder.spl -module encoder -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e encoder.spl C:/Checkout3/Hack.org.za/Xilinx/ENCODER/encoder.sym 
+vhdtdtfi -lib work rotary_encoder.vhd -prj ENCODER -o encoder.spl -module encoder -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e encoder.spl C:/Checkout3/Hack.org.za/Xilinx/ENCODER/encoder.sym 
+vhdtdtfi -lib work rotary_encoder.vhd -prj ENCODER -o encoder.spl -module encoder -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e encoder.spl C:/Checkout3/Hack.org.za/Xilinx/ENCODER/encoder.sym 
+vhdtdtfi -lib work rotary_encoder.vhd -prj ENCODER -o encoder.spl -module encoder -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e encoder.spl C:/Checkout3/Hack.org.za/Xilinx/ENCODER/encoder.sym 

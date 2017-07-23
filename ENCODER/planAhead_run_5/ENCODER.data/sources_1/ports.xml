@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Interface Version="1" Minor="1">
+	<Ifc Id="ROOT" Top="1">
+		<Port Id="PHA" Dir="IN"/>
+		<Port Id="PHB" Dir="IN"/>
+		<Port Id="SYSCLK" Dir="IN"/>
+		<Port Id="DIR" Dir="OUT"/>
+		<Port Id="PULSE_OUT" Dir="OUT"/>
+	</Ifc>
+</Interface>
+

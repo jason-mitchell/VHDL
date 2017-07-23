@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator P.20131013
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o C:\Checkout3\Hack.org.za\Xilinx\ENCODER//RAW_ENCODE -x xcf04s -u 00000000 C:/Checkout3/Hack.org.za/Xilinx/ENCODER/toplevel.bit 
+
+PROM C:\Checkout3\Hack.org.za\Xilinx\ENCODER\RAW_ENCODE.prm map: Sat Apr 09 20:44:02 2016
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          512K
+PROM start    0000:0000
+PROM end      0007:ffff
+PROM checksum 03a835b2
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    0004:547f     Apr 09 20:42:53 2016 C:/Checkout3/Hack.org.za/Xilinx/ENCODER/toplevel.bit

@@ -1,0 +1,5 @@
+set -tmpdir "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/xst/projnav.tmp"
+set -xsthdpdir "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/xst"
+elaborate
+-ifn rotary_decoder.prj
+-ifmt mixed

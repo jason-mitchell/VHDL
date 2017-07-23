@@ -1,0 +1,56 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Sat Apr 09 20:18:09 2016
+# Process ID: 5588
+# Log file: C:/Checkout3/Hack.org.za/Xilinx/ENCODER/planAhead_run_2/planAhead.log
+# Journal file: C:/Checkout3/Hack.org.za/Xilinx/ENCODER/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -9 day(s)
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/Checkout3/Hack.org.za/Xilinx/ENCODER/pa.fromNetlist.tcl
+# create_project -name ENCODER -dir "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/planAhead_run_2" -part xc3s500efg320-4
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {C:/Checkout3/Hack.org.za/Xilinx/ENCODER} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "TOPLEVEL.ucf" [current_fileset -constrset]
+Adding file 'C:/Checkout3/Hack.org.za/Xilinx/ENCODER/TOPLEVEL.ucf' to fileset 'constrs_1'
+# add_files [list {TOPLEVEL.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc3s500efg320-4
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design TOPLEVEL.ngc ...
+WARNING:NetListWriters:298 - No output is written to TOPLEVEL.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file TOPLEVEL.edif ...
+ngc2edif: Total memory usage is 78872 kilobytes
+
+Parsing EDIF File [./planAhead_run_2/ENCODER.data/cache/TOPLEVEL_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_2/ENCODER.data/cache/TOPLEVEL_ngc_zx.edif]
+ERROR: [Designutils 20-1353] No cell is specified in file './TOPLEVEL.ngc'. The design is empty.  This error may be caused by insufficient disk space.
+
+    while executing
+"link_design"
+    (file "C:/Checkout3/Hack.org.za/Xilinx/ENCODER/pa.fromNetlist.tcl" line 11)
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+ (See C:/Checkout3/Hack.org.za/Xilinx/ENCODER\planAhead_pid5588.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Sat Apr 09 20:18:26 2016...
+INFO: [Common 17-83] Releasing license: PlanAhead

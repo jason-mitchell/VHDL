@@ -1,0 +1,8 @@
+vhdtdtfi -lib work UpDownCounter4Bit.vhd -prj ENCODER -o UpDownCounter4Bit.spl -module UpDownCounter4Bit -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e UpDownCounter4Bit.spl C:/Checkout3/Hack.org.za/Xilinx/ENCODER/UpDownCounter4Bit.sym 
+vhdtdtfi -lib work UpDownCounter4Bit.vhd -prj ENCODER -o UpDownCounter4Bit.spl -module UpDownCounter4Bit -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e UpDownCounter4Bit.spl C:/Checkout3/Hack.org.za/Xilinx/ENCODER/UpDownCounter4Bit.sym 
+vhdtdtfi -lib work UpDownCounter4Bit.vhd -prj ENCODER -o UpDownCounter4Bit.spl -module UpDownCounter4Bit -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e UpDownCounter4Bit.spl C:/Checkout3/Hack.org.za/Xilinx/ENCODER/UpDownCounter4Bit.sym 
+vhdtdtfi -lib work UpDownCounter4Bit.vhd -prj ENCODER -o UpDownCounter4Bit.spl -module UpDownCounter4Bit -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e UpDownCounter4Bit.spl C:/Checkout3/Hack.org.za/Xilinx/ENCODER/UpDownCounter4Bit.sym 

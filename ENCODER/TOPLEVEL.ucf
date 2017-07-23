@@ -1,0 +1,40 @@
+
+
+NET "PHB" LOC = K18;
+NET "PHA" LOC = G18;
+
+
+NET "PHA" PULLUP;
+NET "PHB" PULLUP;
+
+
+
+NET "SYSCLK" LOC = C9;
+
+
+NET "PULSE_OUT" LOC = F12;
+
+NET "count_out(0)" LOC = F9;
+NET "count_out(1)" LOC = E9;
+NET "count_out(2)" LOC = D11;
+NET "count_out(3)" LOC = C11;
+
+
+NET "PULSE_OUT" IOSTANDARD = LVTTL;
+NET "SYSCLK" IOSTANDARD = LVCMOS25;
+NET "count_out(0)" IOSTANDARD = LVTTL;
+NET "count_out(1)" IOSTANDARD = LVTTL;
+NET "count_out(2)" IOSTANDARD = LVTTL;
+NET "count_out(3)" IOSTANDARD = LVTTL;
+
+
+NET "PHB" IOSTANDARD = LVCMOS25;
+NET "PHA" IOSTANDARD = LVCMOS25;
+
+# PlanAhead Generated physical constraints 
+
+NET "DIR" LOC = E12;
+
+# PlanAhead Generated IO constraints 
+
+NET "DIR" IOSTANDARD = LVTTL;

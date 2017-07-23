@@ -1,0 +1,3 @@
+vhdl work "UpDownCounter4Bit.vhd"
+vhdl work "rotary_encoder.vhd"
+verilog work "TOPLEVEL.vf"
